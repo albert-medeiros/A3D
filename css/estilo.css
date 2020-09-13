@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background:white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------- Início Menu ----------------- */
+#menu{    
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: blue;
+    min-height: 80px;
+    width: 100vw;
+
+    color:black;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+
+    position: fixed;
+    z-index:1;
+
+    flex-wrap: wrap;
+}
+
+#menu h1{
+    display: none;
+}
+
+#logo_menu{
+    width: 150px;
+    margin:10px ;
+}
+#menu ol{
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+#menu ol li{    
+    display: inline-block;   
+}
+
+
+.link_menu{
+    text-decoration:none;
+    color:black;
+    width: 65px;
+    margin: 10px;
+
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.link_menu:hover{
+    color: #5e6869;
+}
+
+#selecionado{
+    color: #5e6869;
+ }
+/* ------------------------------- Fim Menu ----------------- */
