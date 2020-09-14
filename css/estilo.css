@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 
@@ -5,7 +6,7 @@ html,body{
     margin: 0;
     padding: 0;
     background:white;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -15,19 +16,26 @@ html,body{
     align-items: center;
 }
 
+.primeira_div {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-left: 100vw solid #FFCC29;
+}
+
 /* ------------------------------- Início Menu ----------------- */
 #menu{    
-    /* background-color: rgba(255, 255, 255, 0.5); */
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: pink; */
     min-height: 80px;
-    width: 100vw;
+    width: 100%;
 
     color:black;
 
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
 
-    position: fixed;
+    /* position: fixed; */
     z-index:1;
 
     flex-wrap: wrap;
@@ -69,4 +77,72 @@ html,body{
 #selecionado{
     color: #5e6869;
  }
+
 /* ------------------------------- Fim Menu ----------------- */
+
+/* ------------------------------- inicio Footer ----------------- */
+footer{
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+#menu_footer{
+    margin:15px;
+}
+
+#menu_footer ol{
+    padding:0;    
+}
+
+#menu_footer li{
+    text-align:center ;
+    display: block;   
+    margin: 10px; 
+    width: 130px;
+}
+
+.menu_footer{
+    text-decoration: none;
+    color: black;    
+}
+
+.menu_footer:hover{
+    color:#5e6869;
+}
+
+#logo_footer{
+    width: 80px;
+    margin: 15px;
+}
+
+#imgs{
+    flex-direction: column;
+    margin: 15px;
+}
+.img_contato{
+    width: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#metodo_pagamento,#metodo_envio{
+    margin: 15px;
+}
+#metodo_envio{
+   text-align:center ;
+   margin-bottom: 21.15px;
+}
+#correio{
+    width: 70px;    
+}
+
+/* ------------------------------- Fim Footer ----------------- */
+
+@media(max-width: 380px){
+    #pagamento{
+        width: 200px;
+    }
+}
+
