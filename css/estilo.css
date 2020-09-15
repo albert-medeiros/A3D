@@ -1,13 +1,16 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 
 
 html,body{
     margin: 0;
     padding: 0;
     background:white;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+
+    overflow-x: hidden;
 }
 
 .flex{
@@ -19,10 +22,18 @@ html,body{
 .primeira_div {
     width: 0;
     height: 0;
-    border-top: 60px solid transparent;
-    border-left: 100vw solid #FFCC29;
+    border-bottom: 30px solid transparent;
+    border-left: 100vw solid white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
+.segunda_div {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-right: 100vw solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 /* ------------------------------- Início Menu ----------------- */
 #menu{    
     background-color: rgba(255, 255, 255, 0.5);

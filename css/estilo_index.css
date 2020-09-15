@@ -1,23 +1,142 @@
-
+#link_branco{
+    text-decoration: none;
+}
+#link_branco:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 /* ------------------------------- primeira section ----------------- */
 .primeira_section{
-    height: 400px;
-    background: orange;
+    min-height: 500px;
+    
+    background-image: url("../imagens/background/korablik-2681190.jpg");
+    background-attachment: fixed;
+    background-position:center center ;
+    background-size: cover;
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#conteudo{
+    height: 500px;
+    /* background: ; */
+}
+
+#efeito{
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    flex-direction: column;
+}
+
+#logo_vertical{
+    width: 115px;
+}
+
+#sub_texto{
+    width: 400px;
+    margin: 15px;
+}
+
+#chamada_compra{
+    width: 250px;
+    padding: 5px;
+    /* background: white; */
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    
+    text-decoration: none;
+    color: white;
 }
 
 /* ------------------------------- primeira section ----------------- */
 
 /* ------------------------------- segunda section ----------------- */
 .segunda_section{
-    height: 400px;
-    background: pink;
+    min-height: 500px;
+    background: white;
 }
 /* ------------------------------- segunda section ----------------- */
 
 /* ------------------------------- terceira section ----------------- */
 .terceira_section{
-    height: 400px;
-    background: yellow;
+    min-height: 450px;
+    
+    background-image: url("../imagens/background/calibration-cube-4134916.jpg");
+    background-attachment: fixed;
+    background-position:center center ;
+    background-size: cover;
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
+
+#titulo_ts{
+    font-size: 42px;
+}
+
+#efeito_ts{
+    width: 100%;
+    min-height: 450px;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+}
+
+#titulo_ts{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+#conteudo_ts{
+    width: 100%;
+    min-height: 200px;
+    /* background:yellow; */
+}
+
+#lado_lista{
+    width: 42%;
+    min-height: 216px;
+    margin: 10px;
+    /* background:red; */
+}
+
+.list{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    /* background:blue; */
+    /* margin:5px; */
+}
+.material-icons{
+    margin-right:6px;
+}
+
+#chamada{
+    margin-bottom: 40px;
+}
+
 /* ------------------------------- terceira section ----------------- */
 
+@media(max-width: 410px){
+    #sub_texto{
+        width: 200px;
+    }
+
+    .list{
+        flex-direction: column;    
+    }
+}
+
+@media(max-width: 260px){
+    #chamada_compra{
+        width: 150px;
+    }
+}
