@@ -1,0 +1,99 @@
+main{
+    /* background: blue; */
+    min-height: 500px;
+    
+
+    background-image: url("../imagens/background/ball-597523.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: 'Open Sans', sans-serif;
+
+    color: white;
+}
+
+main h1{
+   
+    margin: 15px;
+    margin-top: 35px;
+    font-size: 42px;
+    text-align: center;
+}
+
+#duvidas{
+    width: 100%;
+    min-height: 600px;
+    background: rgba(0, 0, 0, 0.5);
+
+    flex-direction: column;
+}
+
+#texto_duvidas{
+    width: 100%;
+    min-height: 500px;
+
+    /* background-color: royalblue; */
+}
+
+#lado_duvidas{
+    width: 40%;
+    margin: 15px;
+    min-height: 450px;
+    /* background-color: seagreen; */
+    flex-direction: column;
+}
+
+.titulo_duvida{
+    text-align: center;
+}
+
+.resposta_duvida{
+    text-align: justify;
+    width: 100%;
+
+    /* background-color: pink; */
+
+    margin-bottom: 15px;
+}
+
+h2{
+    margin: 0px;
+    padding: 0;
+}
+
+hr{
+    margin: 3px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+#chamada_duvida{
+
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 25px;
+    border: solid white 2px;
+}
+
+#chamada_duvida:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);;
+}
+
+.material-icons{
+    margin: 5px;
+}
+
+@media(max-width: 400px){
+    #texto_duvidas{
+        flex-direction: column;
+    }
+
+    #lado_duvidas{
+     width: 80%;   
+    }
+}

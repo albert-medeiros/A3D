@@ -23,11 +23,19 @@ html,body{
     width: 0;
     height: 0;
     border-bottom: 30px solid transparent;
-    border-left: 100vw solid white;
+    border-left: 100vw solid whitesmoke;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .segunda_div {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-right: 100vw solid whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.segunda_div_footer {
     width: 0;
     height: 0;
     border-top: 30px solid transparent;

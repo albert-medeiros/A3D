@@ -1,7 +1,14 @@
 #link_branco{
     text-decoration: none;
 }
-#link_branco:hover{
+
+#link_preto{
+    text-decoration: none;
+    color: black;
+
+}
+
+#link_branco:hover,#link_preto:hover{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -61,7 +68,61 @@
 /* ------------------------------- segunda section ----------------- */
 .segunda_section{
     min-height: 500px;
-    background: white;
+    background: whitesmoke;
+    width: 100%;
+
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#prod{
+    width: 100%;
+    min-height: 100px;    
+    flex-wrap: wrap;
+
+    /* background: blue; */
+}
+
+#img_produto{
+    min-height: 300px;
+    min-width: 310px;
+    margin: 30px;
+    /* background-color: chartreuse; */
+
+    border: black solid 2.5px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+#etiqueta{
+    width: 80%;
+    height: 37px;
+    color: black;
+    border-radius: 25px;
+    background-color: white;
+    border: black solid 2px;
+
+}
+
+.img_ss{
+    border-radius: 10px;
+    width: 300px;
+    margin: 12px;
+    margin-bottom: 0px;
+}
+
+#chamada_ss{
+    width: 350px;
+    padding: 5px;
+    /* background: white; */
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    
+    text-decoration: none;
+    color: black;
 }
 /* ------------------------------- segunda section ----------------- */
 
@@ -131,7 +192,8 @@
     }
 
     .list{
-        flex-direction: column;    
+        flex-direction: column; 
+        margin-bottom:20px;   
     }
 }
 
