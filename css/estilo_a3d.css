@@ -1,0 +1,72 @@
+main{
+    /* background: blue; */
+    min-height: 500px;
+    
+
+    background-image: url("../imagens/background/ball-597523.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: 'Open Sans', sans-serif;
+
+    color: white;
+}
+
+main h1{
+   
+    margin: 15px;
+    margin-top: 35px;
+    font-size: 42px;
+    text-align: center;
+}
+
+#oque{
+    min-height: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+}
+
+#divisao_cima,#divisao_baixo{
+    
+    width: 90%;
+    /* background-color: royalblue; */
+    text-align: justify;
+}
+
+#divisao_cima{
+    min-height: 300px;
+}
+
+#sub_titulo{
+    margin: 0;
+}
+
+#lado_divisao{
+    min-height: 100px;
+    width: 45%;
+    /* background-color: pink;  */
+    margin: 10px;
+}
+
+#divisao_baixo{
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+#divisao_baixo hr{
+    width: 100%;
+    margin: 5px;
+}
+
+@media(max-width: 460px){
+    #divisao_cima{
+        flex-direction: column;
+       
+    }
+    #lado_divisao{
+        width: 100%;
+    }
+}
