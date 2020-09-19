@@ -1,0 +1,95 @@
+header{
+    background-image: url("../imagens/background/calibration-cube-4134916.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+
+#efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+}
+
+#efeito h1{
+    margin: 0;
+    margin-top: 10px;
+}
+
+#efeito hr{
+    width: 550px;
+}
+
+#link_voltar{
+    margin: 5px;
+    margin-bottom: 10px;
+
+    text-decoration: none;
+    color: white;
+}
+
+#link_voltar:hover{
+    text-decoration: underline white;
+}
+
+#conteudo_produto{
+    width:100%;
+    min-height: 400px;
+    background:#f1f2f6;
+}
+
+section{
+    width: 300px;
+    min-height: 400px;
+    margin: 30px;
+
+    /* background-color: blue; */
+    flex-direction: column;
+}
+
+#img_produto{
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.material-icons{
+    font-size: 15px;
+    margin: 1.5px;
+}
+
+#descricao_produto{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+#link_chamada{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+    margin:15px;
+    border-radius: 15px;
+    border: black solid 1.5px;
+    width: 250px;
+    height:  25px;
+}
+
+#link_chamada:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);    
+}
+
+@media(max-width: 700px){
+
+    #conteudo_produto{
+        flex-direction: column;
+    }
+
+    section{
+        width: 80%;
+        min-height: 200px;
+    }
+}

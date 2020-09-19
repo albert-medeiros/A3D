@@ -195,6 +195,10 @@
         flex-direction: column; 
         margin-bottom:20px;   
     }
+
+    #titulo_ts{
+        font-size:28px;
+    }
 }
 
 @media(max-width: 260px){

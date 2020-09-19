@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A3D - Início</title>
+        <link rel="icon" type="imagem/png" href="../../imagens/logos/logo.png">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="../../css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="../../css/estilo_produtos_solo.css">
+    </head>
+    <body>
+        <nav id="menu" class="flex">
+            <h1>Menu Principal</h1>
+            <img src="../../imagens/logos/logo_horizontal.png" alt="logo A3D horizontal" id="logo_menu">
+            <ol class="flex">
+                <a href="../../index.html" class="link_menu" ><li>Início</li></a>
+                <a href="../produtos.html" id="../selecionado" class="link_menu"  ><li>Produtos</li></a>
+                <a href="../produtos.html" class="link_menu"><li>A3D</li></a>
+            </ol>
+            
+        </nav>
+    <!-- --------------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------------- -->
+
+        <header class="flex">
+            <div class="flex" id="efeito">
+                <h1> Chaveiro de Coração 1</h1><hr>
+                <span class="material-icons">west</span>
+                <a href="../produtos.html" class="flex" id="link_voltar"> Voltar para página anterior </a>
+            </div>
+        </header>   
+
+        <main class="flex" id="conteudo_produto">
+            <section id="imagens" class="flex">
+                <img src="../../imagens/produtos/coracao5.png" alt="Imagens dos produtos" id="img_produto">
+                <span class="flex"> 
+                    <span class="material-icons" id="opc_radio1" onclick="img_coracao1()">radio_button_checked</span>
+                    <span class="material-icons" id="opc_radio2" onclick="img_coracao2()">radio_button_unchecked</span>
+                    <span class="material-icons" id="opc_radio3" onclick="img_coracao3()">radio_button_unchecked</span>                    
+                </span>
+            </section>
+
+            <section id="dados" class="flex">
+                
+                <span id="descricao_produto"> Não importa a idade que temos, sempre que vemos um chaveiro novo queremos colocar juntos com nossas chaves. Esse chaveiro é ideal para presentear um amigo, um familiar ou até mesmo um conhecido para demostrar que idependente de tudo ele é uma pessoa especial pra vc<br><br> Esse chaveiro é impresso utilizando o pelímero PLA e amor!<br><br>A pronta entrega temos as cores branca, preta e rosa mas caso vc queiram de alguma outra cor, nos mande uma mensagem e vamos resolver isso! <br><br>                                    
+                </span>
+
+                <span>4 cm - R$18,00</span>
+                <span>6 cm - R$22,00</span>
+
+                <a href="#" id="link_chamada" class="flex"> Quero comprar este produto!</a>
+            </section>
+
+        </main>
+
+    <!-- --------------------------------------------------------------------------------------------- -->    
+    <!-- --------------------------------------------------------------------------------------------- -->
+
+        <footer class="flex">
+            
+            <!-- <div class="primeira_div"></div> -->
+
+            <nav id="menu_footer">            
+                <ol>
+                    <a href="../../index.html" class="menu_footer"><li>Inicio</li> </a> 
+                    <a href="../produtos.html" id="selecionado"id="opc22" class="menu_footer"><li>Produtos</li> </a> 
+                    <!-- <a href="orcamento.html" id="opc33" class="menu_footer"> <li>Orçamento</li> </a>  -->
+                    <a  href="../html" id="opc44" class="menu_footer"><li>A3D</li> </a> 
+                    <a href="../duvidas.html"   id="opc55" class="menu_footer"><li>Dúvidas frequentes</li> </a> 
+                </ol>            
+            </nav>
+            <div id="imgs" class="flex">
+                <img src="../../imagens/logos/logo_vertical.png" alt="logo A3D vertical" id="logo_footer">
+                <div class="flex">
+                    <img src="../../imagens/pagamento_envios/logotipo.png" alt="Instagram" class="img_contato">
+                    <img src="../../imagens/pagamento_envios/enviar.png" alt="E-mail" class="img_contato">
+                </div>           
+            </div>
+            <div id="metodo_pagamento">
+                <span>Métodos de pagamento</span>
+                <hr>
+                <img src="../../imagens/pagamento_envios/metodo_pagamento.png" alt="Métodos de pagamento" id="pagamento">
+            </div>
+
+        
+            
+            <div id="metodo_envio" >
+                <span>Métodos de envio</span>
+                <hr>
+                <img src="../../imagens/pagamento_envios/correio.png" alt="Métodos de pagamento" id="correio">
+            </div>
+
+
+        </footer>
+    </body>
+    <script type="text/javascript" src="../../js/slider.js"></script>
+</html>
