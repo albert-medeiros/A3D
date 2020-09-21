@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap');
+
 header{
     background-image: url("../imagens/background/calibration-cube-4134916.jpg");
     background-position: center;
@@ -36,14 +38,14 @@ header{
 
 #conteudo_produto{
     width:100%;
-    min-height: 400px;
+    min-height: 100px;
     background:#f1f2f6;
 }
 
 section{
     width: 300px;
     min-height: 400px;
-    margin: 30px;
+    margin: 10px;
 
     /* background-color: blue; */
     flex-direction: column;
@@ -62,17 +64,29 @@ section{
     width: 100%;
 }
 
-.cor{
-    width: 13px;
-    margin: 1px;
-}
-
 #tamanho_preco{
     flex-direction: column;
     margin-bottom: 10px;
     
     font-size: 18px;
     width: 100%;
+
+    font-family: museo-sans, sans-serif;
+}
+
+#juros{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.cor{
+    width: 14px;
+    margin: 2px;
+}
+
+#cores{
+    margin: 4px;
+    flex-wrap: wrap;
 }
 
 .material-icons{
@@ -80,27 +94,62 @@ section{
     margin: 1.5px;
 }
 
+#titulo_descricao{
+    font-size: 30px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
 #descricao_produto{
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
+
+    /* background: pink; */
+
+    width: 100%;
+    margin:0px;
+    /* background:pink; */
+    /* color:#57606f; */
+    min-height: 250px;
+    margin-bottom:15px;
+    padding-bottom: 10px;
+
+    background:#f1f2f6;
 }
 
 #link_chamada{
     text-decoration: none;
-    color: black;
+    /* color: black; */
     font-size: 18px;
 
     margin:15px;
-    border-radius: 15px;
-    border: black solid 1.5px;
+    border-radius: 10px;
+    /* border: black solid 1.5px; */
     width: 250px;
-    height:  25px;
+    min-height:  35px;
+    text-align: center;
+
+    color: #f1f2f6;
+    background: rgba(210, 105, 30, 0.808);
 }
 
 #link_chamada:hover{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);    
+}
+
+#conteudo_descricao{
+    width: 80%;
+    /* background: white; */
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-size:14px;
+}
+
+.descricao{
+    margin: 4px;
 }
 
 @media(max-width: 700px){
