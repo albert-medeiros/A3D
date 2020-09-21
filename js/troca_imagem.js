@@ -154,3 +154,28 @@ function voltar_fone(x){
 }
 
 // =--------------------------------------------------
+
+var imagem_pc_holder = new Array("../imagens/produtos/pc_holder2.jpeg","../imagens/produtos/pc_holder1.jpeg","../imagens/produtos/pc_holder3.jpeg","../imagens/produtos/pc_holder4.jpeg","../imagens/produtos/pc_holder5.jpeg");
+
+function chama_pc_holder(x){
+    x.src = imagem_pc_holder[y];
+    tam=imagem_pc_holder.length;
+    j=setInterval(trocar_imagem_pc_holder,1000);    
+}
+
+function trocar_imagem_pc_holder(x){
+        y++;
+
+        if(y >= tam){
+            y=0;
+        }
+        document.getElementById("img_pc_holder").src=imagem_pc_holder[y];        
+}
+
+function voltar_pc_holder(x){
+    x.src ="../imagens/produtos/pc_holder2.jpeg"
+    clearInterval(j);
+    y=0;
+}
+
+// =--------------------------------------------------
