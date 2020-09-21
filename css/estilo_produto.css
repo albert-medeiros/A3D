@@ -97,7 +97,7 @@ section hr{
 article{
     flex-direction: column;
     /* background-color: salmon; */
-    width: 300px;
+    min-width: 300px;
     margin: 15px;
     border-radius: 15px;
     /* height:600px; */
@@ -110,21 +110,27 @@ article:hover{
 
 section article h4{
     margin: 0px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .img_produto{
     margin:15px;
-    width: 280px;
+    width: 260px;
     border-radius: 15px;
 }
 
 #texto_produto{
     /* background-color: skyblue; */
-    margin: 45px;
+    margin: 15px;
+    margin-top: 5px;
     text-align: justify;
-    height: 110px;
+    min-height: 50px;
     font-size: 16px;
+    flex-direction: column;
+}
+
+.preco{
+    font-size: 20px;
 }
 
 #ver_mais{
@@ -165,8 +171,6 @@ section article h4{
         width: 240px;
     }
 
-    #texto_produto{
-        width: 80%;
-    }
+
    
 }
