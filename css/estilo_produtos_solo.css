@@ -10,6 +10,7 @@ header{
 #efeito{
     background-color: rgba(0, 0, 0, 0.5);
     flex-direction: column;
+    width: 100%;
 }
 
 #efeito h1{
@@ -52,6 +53,26 @@ section{
     width: 300px;
     border-radius: 15px;
     margin-bottom: 20px;
+}
+
+#titulo_produto{
+    font-size: 28px;
+    margin: 10px;
+
+    width: 100%;
+}
+
+.cor{
+    width: 13px;
+    margin: 1px;
+}
+
+#tamanho_preco{
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+    font-size: 18px;
+    width: 100%;
 }
 
 .material-icons{
