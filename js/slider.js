@@ -316,3 +316,58 @@ function img_pc_holder5(){
     document.getElementById("opc_radio6").innerHTML= "radio_button_unchecked";
 }
 // _______________________________________
+
+function img_vader1(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/vader1.jpg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_checked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
+}
+
+function img_vader2(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/vader2.jpg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_checked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
+}
+
+function img_vader3(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/vader3.jpg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_checked";
+}
+// _______________________________________
+
+function img_among1(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/among3.jpeg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_checked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked"
+}
+
+function img_among2(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/among2.jpeg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_checked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked"
+}
+
+function img_among3(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/among1.jpeg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_checked";
+    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked"
+}
+
+function img_among4(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/among4.jpeg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio4").innerHTML= "radio_button_checked"
+}
+// _______________________________________

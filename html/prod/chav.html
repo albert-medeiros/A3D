@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A3D - Início</title>
+        <link rel="icon" type="imagem/png" href="../../imagens/logos/logo.png">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="../../css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="../../css/estilo_produtos_solo.css">
+    </head>
+    <body>
+        <nav id="menu" class="flex">
+            <h1>Menu Principal</h1>
+            <img src="../../imagens/logos/logo_horizontal.png" alt="logo A3D horizontal" id="logo_menu">
+            <ol class="flex">
+                <a href="../../index.html" class="link_menu" ><li>Início</li></a>
+                <a href="../produtos.html" id="../selecionado" class="link_menu"  ><li>Produtos</li></a>
+                <a href="../a3d.html" class="link_menu"><li>A3D</li></a>
+            </ol>
+            
+        </nav>
+    <!-- --------------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------------- -->
+
+        <header class="flex">
+            <div class="flex" id="efeito">
+                <h1> Chaveiro de Coração 1</h1><hr>
+                <span class="material-icons">west</span>
+                <a href="../produtos.html" class="flex" id="link_voltar"> Voltar para página anterior </a>
+            </div>
+        </header>   
+
+        <main class="flex" id="conteudo_produto">
+            <section id="imagens" class="flex">
+                <img src="../../imagens/produtos/among3.jpeg" alt="Imagens dos produtos" id="img_produto">
+                <span class="flex"> 
+                    <span class="material-icons" id="opc_radio1" onclick="img_among1()">
+                        radio_button_checked</span>
+                    <span class="material-icons" id="opc_radio2" onclick="img_among2()">radio_button_unchecked</span>
+                    <span class="material-icons" id="opc_radio3" onclick="img_among3()">radio_button_unchecked</span>                    
+                    <span class="material-icons" id="opc_radio4" onclick="img_among4()">radio_button_unchecked</span>                    
+                </span>
+            </section>
+
+            <section id="dados" class="flex">
+                <span id="titulo_produto" class="flex"> Chaveiro de Coração 1</span>
+                <div id="tamanho_preco" class="flex">
+                    <span>3 cm - R$8,00</span>
+                    <span>10 cm - R$15,00</span>                    
+                    <span id="juros">Até 1x Sem Juros</span>
+                </div>
+            
+                <div id="cores" class="flex">                    
+                    Cores Disponíveis:
+                    <img src="../../imagens/cores_produtos/preto.png" alt="Cor Preta" class="cor">
+                    <img src="../../imagens/cores_produtos/branco.png" alt="Cor Branca" class="cor">
+                    <img src="../../imagens/cores_produtos/natural.png" alt="Cor Natural" class="cor">
+                    <img src="../../imagens/cores_produtos/vermelho.png" alt="Cor Vermelha" class="cor">
+                </div>
+
+                <a href="https://api.whatsapp.com/send?phone=5535988271372&text=Oi%20Tudo%20bem?%20Tenho%20interesse%20no%20Chaveiro%20de%20Coração%20número%201!%20" target="blank" id="link_chamada" class="flex"> <span class="material-icons" id="sacola">shopping_bag</span>Quero comprar este produto!</a>
+            </section>         
+        </main>
+        <section class="flex" id="descricao_produto">
+            <spam id="titulo_descricao"> Descrição do Produto</spam>
+            <div id="conteudo_descricao" class="flex">
+                
+                <span class="descricao" class="flex"><span class="material-icons" class="seta">arrow_right</span>Tempo de Impressão: Aprox. 3 Horas</span>
+
+                <span class="descricao" class="flex"><span class="material-icons" class="seta">arrow_right</span>Material: PLA - Desenvolvido para criação de protótipos funcionais e peças com alta resistência e rigidez.</span>
+
+                <!-- 
+                <span class="descricao" class="flex"><span class="material-icons" class="seta">arrow_right</span>coisa 1</span>
+
+                <span class="descricao" class="flex"><span class="material-icons" class="seta">arrow_right</span>coisa 1</span>
+
+                <span class="descricao" class="flex"><span class="material-icons" class="seta">arrow_right</span>coisa 1</span> 
+                -->
+                    
+                <span class="descricao" class="flex"><span class="material-icons" class="seta">arrow_right</span>A confirmação do pagamento (pode levar alguns dias), iremos produzir em até 3 dias úteis. Após a produção, postaremos nos correios em até 1 dia útil. Só então começará a contar os prazos dos correios</span>
+
+                <span class="descricao" class="flex"><span class="material-icons" class="seta">arrow_right</span>Seu pedido será produzido a partir da confirmação do pagamento.</span>
+
+                <span class="descricao" class="flex"><span class="material-icons" class="seta">arrow_right</span>Como os produtos são feitos a partir de impressoras 3D, processo que tem algumas particularidades em sua produção, algumas linhas auxiliares poderão ser visíveis no produto final. As linhas, no entanto, são essenciais para dar suporte a peça e não prejudicam o design do produto.
+                </span>
+            </div>
+        </section>
+
+    <!-- --------------------------------------------------------------------------------------------- -->    
+    <!-- --------------------------------------------------------------------------------------------- -->
+
+        <footer class="flex">
+            
+            <!-- <div class="primeira_div"></div> -->
+
+            <nav id="menu_footer">            
+                <ol>
+                    <a href="../../index.html" class="menu_footer"><li>Inicio</li> </a> 
+                    <a href="../produtos.html" id="selecionado"id="opc22" class="menu_footer"><li>Produtos</li> </a> 
+                    <!-- <a href="orcamento.html" id="opc33" class="menu_footer"> <li>Orçamento</li> </a>  -->
+                    <a  href="../html" id="opc44" class="menu_footer"><li>A3D</li> </a> 
+                    <a href="../duvidas.html"   id="opc55" class="menu_footer"><li>Dúvidas frequentes</li> </a> 
+                </ol>            
+            </nav>
+            <div id="imgs" class="flex">
+                <img src="../../imagens/logos/logo_vertical.png" alt="logo A3D vertical" id="logo_footer">
+                <div class="flex">
+                    <a href="https://www.instagram.com/impressaoa3d/" target="blank" class="flex"><img src="../../imagens/pagamento_envios/logotipo.png" alt="Instagram" class="img_contato"></a>
+                    <a href="mailto:impressaoa3d@gmail.com" class="flex" ><img src="../../imagens/pagamento_envios/enviar.png" alt="E-mail" class="img_contato"></a>  
+                </div>           
+            </div>
+            <div id="metodo_pagamento">
+                <span>Métodos de pagamento</span>
+                <hr>
+                <img src="../../imagens/pagamento_envios/metodo_pagamento.png" alt="Métodos de pagamento" id="pagamento">
+            </div>
+
+        
+            
+            <div id="metodo_envio" >
+                <span>Métodos de envio</span>
+                <hr>
+                <img src="../../imagens/pagamento_envios/correio.png" alt="Métodos de pagamento" id="correio">
+            </div>
+
+
+        </footer>
+    </body>
+    <script type="text/javascript" src="../../js/slider.js"></script>
+</html>

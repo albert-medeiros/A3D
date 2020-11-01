@@ -179,3 +179,53 @@ function voltar_pc_holder(x){
 }
 
 // =--------------------------------------------------
+
+var imagem_vader = new Array("../imagens/produtos/vader1.jpg","../imagens/produtos/vader2.jpg","../imagens/produtos/vader3.jpg");
+
+function chama_vader(x){
+    x.src = imagem_vader[y];
+    tam=imagem_vader.length;
+    j=setInterval(trocar_imagem_vader,1000);    
+}
+
+function trocar_imagem_vader(x){
+        y++;
+
+        if(y >= tam){
+            y=0;
+        }
+        document.getElementById("img_vader").src=imagem_vader[y];        
+}
+
+function voltar_vader(x){
+    x.src ="../imagens/produtos/vader1.jpg"
+    clearInterval(j);
+    y=0;
+}
+
+// =--------------------------------------------------
+
+var imagem_among = new Array("../imagens/produtos/among3.jpeg","../imagens/produtos/among2.jpeg","../imagens/produtos/among1.jpeg","../imagens/produtos/among4.jpeg");
+
+function chama_among(x){
+    x.src = imagem_among[y];
+    tam=imagem_among.length;
+    j=setInterval(trocar_imagem_among,1000);    
+}
+
+function trocar_imagem_among(x){
+        y++;
+
+        if(y >= tam){
+            y=0;
+        }
+        document.getElementById("img_among").src=imagem_among[y];        
+}
+
+function voltar_among(x){
+    x.src ="../imagens/produtos/among3.jpeg"
+    clearInterval(j);
+    y=0;
+}
+
+// =--------------------------------------------------
