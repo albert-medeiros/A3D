@@ -344,7 +344,7 @@ function img_among1(){
     document.getElementById("opc_radio1").innerHTML= "radio_button_checked";
     document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
     document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
-    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked"
+    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked";
 }
 
 function img_among2(){
@@ -352,7 +352,7 @@ function img_among2(){
     document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
     document.getElementById("opc_radio2").innerHTML= "radio_button_checked";
     document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
-    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked"
+    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked";
 }
 
 function img_among3(){
@@ -360,7 +360,7 @@ function img_among3(){
     document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
     document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
     document.getElementById("opc_radio3").innerHTML= "radio_button_checked";
-    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked"
+    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked";
 }
 
 function img_among4(){
@@ -368,6 +368,54 @@ function img_among4(){
     document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
     document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
     document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
-    document.getElementById("opc_radio4").innerHTML= "radio_button_checked"
+    document.getElementById("opc_radio4").innerHTML= "radio_button_checked";
 }
+// _______________________________________
+
+
+function img_chav1(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/chav2.jpeg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_checked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio5").innerHTML= "radio_button_unchecked";
+}
+
+function img_chav2(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/chav1.jpeg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_checked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio5").innerHTML= "radio_button_unchecked";
+}
+
+function img_chav3(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/chav3.jpeg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_checked";
+    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio5").innerHTML= "radio_button_unchecked";
+}
+
+function img_chav4(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/chav4.jpeg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio4").innerHTML= "radio_button_checked";
+    document.getElementById("opc_radio5").innerHTML= "radio_button_unchecked";
+}
+
+function img_chav5(){
+    document.getElementById("img_produto").src = "../../imagens/produtos/chav5.jpeg";
+    document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked";
+    document.getElementById("opc_radio5").innerHTML= "radio_button_checked";
+}
+
 // _______________________________________

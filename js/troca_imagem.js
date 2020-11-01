@@ -229,3 +229,27 @@ function voltar_among(x){
 }
 
 // =--------------------------------------------------
+var imagem_chav= new Array("../imagens/produtos/chav2.jpeg","../imagens/produtos/chav1.jpeg","../imagens/produtos/chav3.jpeg","../imagens/produtos/chav4.jpeg","../imagens/produtos/chav5.jpeg");
+
+function chama_chav(x){
+    x.src = imagem_chav[y];
+    tam=imagem_chav.length;
+    j=setInterval(trocar_imagem_chav,1000);    
+}
+
+function trocar_imagem_chav(x){
+        y++;
+
+        if(y >= tam){
+            y=0;
+        }
+        document.getElementById("img_chav").src=imagem_chav[y];        
+}
+
+function voltar_chav(x){
+    x.src ="../imagens/produtos/chav2.jpeg"
+    clearInterval(j);
+    y=0;
+}
+
+// =--------------------------------------------------
