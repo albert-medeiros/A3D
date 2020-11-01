@@ -229,7 +229,7 @@ function voltar_among(x){
 }
 
 // =--------------------------------------------------
-var imagem_chav= new Array("../imagens/produtos/chav2.jpeg","../imagens/produtos/chav1.jpeg","../imagens/produtos/chav3.jpeg","../imagens/produtos/chav4.jpeg","../imagens/produtos/chav5.jpeg");
+var imagem_chav= new Array("../imagens/produtos/chav2.jpeg","../imagens/produtos/chav1.jpeg","../imagens/produtos/chav3.jpeg","../imagens/produtos/chav4.jpeg");
 
 function chama_chav(x){
     x.src = imagem_chav[y];

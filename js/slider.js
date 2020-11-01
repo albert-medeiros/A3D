@@ -409,13 +409,6 @@ function img_chav4(){
     document.getElementById("opc_radio5").innerHTML= "radio_button_unchecked";
 }
 
-function img_chav5(){
-    document.getElementById("img_produto").src = "../../imagens/produtos/chav5.jpeg";
-    document.getElementById("opc_radio1").innerHTML= "radio_button_unchecked";
-    document.getElementById("opc_radio2").innerHTML= "radio_button_unchecked";
-    document.getElementById("opc_radio3").innerHTML= "radio_button_unchecked";
-    document.getElementById("opc_radio4").innerHTML= "radio_button_unchecked";
-    document.getElementById("opc_radio5").innerHTML= "radio_button_checked";
-}
+
 
 // _______________________________________
